@@ -7,9 +7,9 @@ const area=(base*height)/2;
 console.log("area of the triangle is:"+area);
 
 //get values from user
-const s1=prompt("enter the side 1 value");
-const s2=prompt("enter the side 2 value");
-const s3=prompt("enter the side 3 value");
+const s1=parseInt(prompt("enter the side 1 value"));
+const s2=parseInt(prompt("enter the side 2 value"));
+const s3=parseInt(prompt("enter the side 3 value"));
 //calculate the semi-perimeter
 const s=(s1+s2+s3)/2;
 //calculate the area
